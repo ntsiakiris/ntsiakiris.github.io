@@ -1,0 +1,33 @@
+html {
+    scroll-behavior: smooth;
+}
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+-webkit-font-smoothing: antialiased;
+}
+header{
+background-color: var(--bgDark);
+
+}
+header nav .left a{
+color: var(--white);
+text-decoration: none;
+margin-right: 2rem;
+text-transform: uppercase;
+transition: all .2s ease;
+}
+header nav .left a:hover{
+color: var(--primary);
+}
+header nav {
+padding: 2rem 0;
+}
+header nav .logo{
+margin-right: 3rem;
+}
+
+ span{
+    color: var(--primary);
+    }
