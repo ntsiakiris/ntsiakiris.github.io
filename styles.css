@@ -210,3 +210,17 @@ body{
                 color: var(--white);
                 text-align: center;
                 }
+
+                @media only screen and (max-width: 768px) {
+                    .about .container {
+                        padding-top: 40px;
+                        flex-direction: column-reverse; /* Reverse the direction for smaller screens */
+                    }
+                
+                    
+                    .about .right {
+                        width: 100%; 
+                        text-align: center; 
+                        margin-bottom: 20px; 
+                    }
+                }
