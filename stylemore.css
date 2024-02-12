@@ -220,3 +220,14 @@ html {
         font-size: 2rem;
     }
 }
+@media only screen and (max-width: 768px) {
+    #more {
+        padding-top: 150px; /* Adjust this value for mobile screens */
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    #more {
+        padding-top: 0; /* Reset padding-top for larger screens */
+    }
+}
