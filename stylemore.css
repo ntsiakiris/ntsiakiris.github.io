@@ -190,4 +190,33 @@ html {
        
     }
 
-    
+    /* For responsive units, adjust sizes using percentages, em, rem, or vw, vh */
+.container {
+    max-width: 90%; /* Adjust the max-width as needed */
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/* Adjust font sizes and paddings for smaller screens */
+.hero .left img {
+    width: 100%; /* Responsive image */
+}
+
+/* Apply media queries for specific screen sizes */
+@media only screen and (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    .hero .right h1 {
+        font-size: 2.5rem;
+    }
+
+    .method {
+        width: 90%; /* Adjust width for smaller screens */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    /* Further adjustments for even smaller screens */
+    .hero .right h1 {
+        font-size: 2rem;
+    }
+}
